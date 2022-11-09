@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AzureCloudTestWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:AzureCloudTestWebAPI.Controllers.FibonaccisController.GetFibonacciSequence(AzureCloudTestWebAPI.Models.FibonacciInput)">
+            <summary>
+            Get Fibonacci Sequence from n -> to m Refer to https://www.calculatorsoup.com/calculators/discretemathematics/fibonacci-calculator.php
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AzureCloudTestWebAPI.Controllers.HashingController.Get(System.String)">
+            <summary>
+            Get Hash
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AzureCloudTestWebAPI.Controllers.ReverseWordsController.Get(System.String)">
+            <summary>
+            Get Reverse Word
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AzureCloudTestWebAPI.Controllers.TrianglesController.Post(AzureCloudTestWebAPI.Models.TriangleSides)">
+            <summary>
+            Get Category of Triangles -> Refer logic to Triangle https://www.calculator.net/triangle-calculator.html
+            </summary>
+            <param name="trsides"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
